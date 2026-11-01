@@ -7,4 +7,5 @@ public interface TransportVisitor<R> {
     R visitTram(Tram tram);
     R visitStop(Stop stop);
     R visitStation(Station station);
+    R visitScooter(ElectricScooter scooter);
 }
